@@ -118,9 +118,9 @@ position: fixed;
             border-color: var(--accent-color);
         }
     
-        &:focus~.input-icon {
+        &:focus {
             outline: none;
-            fill: var(--accent-color);
+            border-color: var(--accent-color);
         }
 }
 .modle__form-icon {

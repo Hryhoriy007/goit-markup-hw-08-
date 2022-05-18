@@ -389,6 +389,7 @@ ul {
   letter-spacing: 0.02em;
   color: #2196f3;
   text-align: center;
+  margin-top: 20px;
 }
 
 .mob-menu-list__mail {
@@ -1312,9 +1313,9 @@ ul {
   border-color: var(--accent-color);
 }
 
-.modle__form-input:focus ~ .input-icon {
+.modle__form-input:focus {
   outline: none;
-  fill: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .modle__form-icon {
