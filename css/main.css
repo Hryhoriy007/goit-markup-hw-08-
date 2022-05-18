@@ -1311,6 +1311,7 @@ ul {
 
 .modle__form-input:hover {
   border-color: var(--accent-color);
+  outline: none;
 }
 
 .modle__form-input:focus {

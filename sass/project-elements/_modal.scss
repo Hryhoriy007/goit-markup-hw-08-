@@ -116,6 +116,7 @@ position: fixed;
 
     &:hover {
             border-color: var(--accent-color);
+            outline: none;
         }
     
         &:focus {
