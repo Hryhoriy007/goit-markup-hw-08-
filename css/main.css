@@ -612,31 +612,40 @@ ul {
 
 .work {
   padding-bottom: 94px;
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .work {
+    display: block;
+  }
 }
 
 .work__title {
   margin-bottom: 50px;
-  text-align: center;
 }
 
 .work-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  grid-gap: 30px;
 }
 
 .work-list__item {
   position: relative;
 }
 
-.work-list__item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .work-list__text {
   width: 100%;
   position: absolute;
-  bottom: 4px;
+  bottom: 0;
   left: 0;
   padding: 27px 0px;
   font-weight: bold;
