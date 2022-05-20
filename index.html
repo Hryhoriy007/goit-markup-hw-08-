@@ -166,12 +166,10 @@
           <h2 class="work__title section-title">Чем мы занимаемся</h2>
           <ul class="work-list list">
             <li class="work-list__item">
-              <img
-                src="./images/Work/1.jpg"
-                alt="сотрудник создает программу"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source srcset="./images/Work/2.jpg 1x" media="(min-width: 400px)" />
+                <img src="./images/Work/1.jpg" alt="сотрудник создает программу" />
+              </picture>
               <p class="work-list__text">Десктопные приложения</p>
             </li>
             <li class="work-list__item">
@@ -201,12 +199,7 @@
           <h2 class="team__title section-title">Наша команда</h2>
           <ul class="team-list list">
             <li class="team-list__item">
-              <img
-                src="./images/Team/Designer.jpg"
-                alt="фото Игоря Демьяненко"
-                width="270"
-                height="260"
-              />
+              <img class="team-icon" src="./images/Team/Designer.jpg" alt="фото Ольги Репиной" />
               <div class="team-list__workers">
                 <h3 class="team-list__worker">Игорь Демьяненко</h3>
                 <p class="team-list__profession" lang="en">Product Designer</p>
@@ -248,10 +241,11 @@
 
             <li class="team-list__item">
               <img
+                class="team-icon"
                 src="./images/Team/Frontend.jpg"
                 alt="фото Ольги Репиной"
-                width="270"
-                height="260"
+                width="450"
+                height="460"
               />
               <div class="team-list__workers">
                 <h3 class="team-list__worker">Ольга Репина</h3>
@@ -293,10 +287,11 @@
             </li>
             <li class="team-list__item">
               <img
+                class="team-icon"
                 src="./images/Team/Marketing.jpg"
                 alt="фото Николая Тарасова"
-                width="270"
-                height="260"
+                width="450"
+                height="460"
               />
               <div class="team-list__workers">
                 <h3 class="team-list__worker">Николай Тарасов</h3>
@@ -338,10 +333,11 @@
             </li>
             <li class="team-list__item">
               <img
+                class="team-icon"
                 src="./images/Team/UI.jpg"
                 alt="фото Михаила Ермакова"
-                width="270"
-                height="260"
+                width="450"
+                height="460"
               />
               <div class="team-list__workers">
                 <h3 class="team-list__worker">Михаил Ермаков</h3>
