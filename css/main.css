@@ -264,10 +264,6 @@ ul {
   z-index: 999;
 }
 
-.list {
-  text-align: left;
-}
-
 .flex {
   display: flex;
   flex-direction: column;
@@ -706,8 +702,8 @@ ul {
 }
 
 .client {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 @media screen and (min-width: 1200px) {
