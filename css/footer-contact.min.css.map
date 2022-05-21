@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,oBAAoB,AAAC,CACjB,UAAU,CAAE,MAAM,CAClB,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,IAAI,CACjB,KAAK,CAAE,wBAAwB,CAClC,AAED,AAAA,oBAAoB,AAAA,MAAM,CAC1B,oBAAoB,AAAA,MAAM,AAAC,CACvB,KAAK,CAAE,mBAAmB,CAC7B",
-    "sources": [
-        "../sass/components/footer-contact.scss"
-    ],
-    "names": [],
-    "file": "footer-contact.min.css"
-}

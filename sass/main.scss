@@ -1,28 +1,26 @@
-// base
 @import './utils/variables';
-
-@import './base/base';
+@import './base/reset';
 @import './base/container';
 
-@import './components/logo';
 @import './components/section-title';
-@import './components/footer-contact.scss';
-// base end
+@import './components/logo';
 
-// Project elements
-@import './project-elements/header';
-@import './project-elements/hero';
-@import './project-elements/features';
-@import './project-elements/work';
-@import './project-elements/team';
-@import './project-elements/client';
-@import './project-elements/footer';
-// Project elements end
+@import './utils/hidden';
 
-// Portfolio
-@import './portfolio/portfolio-elements.scss';
-// Portfolio end
 
-// modal 
-@import './project-elements/modal';
-// modal end
+@import './layout/header';
+@import './layout/hero';
+@import './layout/features';
+@import './layout/work';
+@import './layout/team';
+@import './layout/client';
+@import './layout/footer';
+
+@import './portfolio/portfolio';
+@import './components/modal';
+
+
+
+
+
+
